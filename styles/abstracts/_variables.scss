@@ -1,0 +1,76 @@
+:root {
+  //*===COLIRS
+  --blue_-1: #2b4cde;
+  --blue: #3357fa;
+  --blue_1: #4d72fe;
+  --blue_2: #9aacff;
+  --blue_3: #c8d2ff;
+  --black_-1: #0a0a0d;
+  --black: #141522;
+  --black_1: #41424d;
+  --black_2: #9a9ba1;
+  --black_3: #dadadd;
+  --grey_1: #e5e4e8;
+  --grey_2: #ebebee;
+  --grey_3: #efeff1;
+  --grey: #dbdadf;
+  --grey_-1: #cacacf;
+  --white_1: #ffffff;
+  --white: #fcfcfc;
+  --white_-1: #f6f6f6;
+  --green_-1: #0db56f;
+  --green: #00c775;
+  --green_1: #14d199;
+  --green_2: #66e1bc;
+  --green_3: #9eecd4;
+  --yellow_-1: #eca438;
+  --yellow: #feba54;
+  --yellow_1: #ffcb7c;
+  --yellow_2: #ffdeac;
+  --yellow_3: #ffe9c8;
+  --red_-1: #e43530;
+  --red: #ff3c36;
+  --red_1: #fe5f5a;
+  --red_2: #fe9a97;
+  --red_3: #feccca;
+
+
+
+  //*=== GRADIENTS
+  --gradient_black: radial-gradient(100.58% 64.45% at 31.36% 23.67%, #636069 0%, #0A0A10 100%);
+  --gradient_dark_grey: radial-gradient(100.58% 64.45% at 31.36% 23.67%, #DBDADF 0%, #0A0A10 100%);
+  --gradient_blue: radial-gradient(100.58% 64.45% at 31.36% 23.67%, #DBDADF 0%, #3357FA 45.31%, #0A0A10 100%);
+  --gradient_blue_green: radial-gradient(100.58% 64.45% at 31.36% 23.67%, #00C775 0%, #4021FF 100%);
+  --gradient_red_purple: radial-gradient(100.58% 64.45% at 31.36% 23.67%, #FF3C36 0%, #4021FF 100%);
+  --gradient_red_yellow: radial-gradient(100.58% 64.45% at 31.36% 23.67%, #FEBA54 0%, #FF3C36 100%);
+  --gradient_green: radial-gradient(100.58% 64.45% at 31.36% 23.67%, #66E1BC 0%, #0DB56F 100%);
+
+  --btn_red_gradient: radial-gradient(166.3% 112.09% at 8.47% -27.47%, #4021FF 0%, #FF3C36 100%);
+
+
+
+  //*=== SHADOW
+  --shadow: 0px 2.767256498336792px 2.2138051986694336px rgba(0, 0, 0, 0),
+    0px 6.650102138519287px 5.32008171081543px rgba(0, 0, 0, 0.02),
+    0px 12.521552085876465px 10.017241477966309px rgba(0, 0, 0, 0.01),
+    0px 22.3363094329834px 17.869047164916992px rgba(0, 0, 0, 0.02),
+    0px 41.777610778808594px 33.422088623046875px rgba(0, 0, 0, 0.01),
+    0px 100px 80px rgba(0, 0, 0, 0.04);
+  --btn_shadow: 0px 27px 32px rgba(0, 0, 0, 0.41), 0px 0px 20px rgba(0, 0, 0, 0.15);
+
+
+
+  //*=== FONT-FAMILY
+  --heebo: "Heebo";
+  --satoshi: "Satoshi";
+
+  //*=== SIZES
+  --main_max_width: 95rem;
+
+
+}
+
+
+
+$medium_screen_query:750px;
+$small_screen_query:500px;

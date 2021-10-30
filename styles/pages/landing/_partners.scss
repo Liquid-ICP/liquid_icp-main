@@ -1,0 +1,48 @@
+.partners {
+  margin-top: 10rem;
+
+  .heading {
+    text-align: center;
+  }
+
+  .partners_container {
+      margin: 0 auto;
+      width: 100%;
+      @include flex(center,center,row);
+      flex-wrap: wrap;
+      gap: 20px 100px;
+      padding: 0 0.8rem;
+      max-width: 90rem;
+
+
+    .partner {
+      padding: 1.5rem 2rem;
+      height: 13.5rem;
+      width: 100%;
+      max-width: 23rem;
+      border: 1px solid;
+      background: #0a0a0c;
+      border: 1.5px solid rgba(255, 255, 255, 0.12);
+      box-shadow: 0px 44px 61px -25px rgba(8, 8, 9, 0.34),
+        0px 3px 20px rgba(8, 8, 9, 0.15);
+      border-radius: 36px;
+      margin-top: 3.5rem;
+
+
+      @media only screen and (max-width: 960px) {
+        margin-left: 0;
+      }
+
+
+
+      .img {
+        background-image: url("/images/chain_link.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+[{
+        "placeholder": "/images/circle_big.png",
+        "path": "/3d_models/circle_with_orbit.glb",
+        "heading": "ICP-20",
+        "paragraph": "1:1 bridged ICP token on erc-20 standard which can be traded or used in various DeFi projects as collateral, staked to earn LP rewards or staked for st-ICP (Liquid version of icp-20) which enables user to earn Neuron staking rewards."
+    },
+    {
+        "placeholder": "/images/circle_big.png",
+        "path": "/3d_models/2x.glb",
+        "heading": "st-ICP",
+        "paragraph": "st-ICP is a token that represents staked ICP-20 in Liquid ICP, combining the value of initial deposit + staking rewards. st-ICP tokens are minted upon deposit and burned when redeemed.  ICP-20/st-ICP tokens' ratio is updated weekly when the oracle reports staking reward amount. st-ICP tokens can be used as one would use ICP-20, allowing you to earn Neuron staking rewards whilst benefiting from yields across DeFi products."
+    },
+    {
+        "placeholder": "/images/circle_big.png",
+        "path": "/3d_models/cube.glb",
+        "heading": "LICP",
+        "paragraph": "Governance token of Liquid ICP ecosystem capped at 10,000,000 tokens. Holders can stake it for Liquidity pool rewards and can participate in insurance staking. Liquid ICP will make monthly LICP buybacks in USDC which is earned from compounded Neuron staking."
+    }
+]

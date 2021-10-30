@@ -1,0 +1,102 @@
+.flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 24rem;
+}
+
+#page-wrap {
+  position: relative;
+  padding: 2rem 10vw;
+  margin-top: 15rem;
+}
+
+/*** canvas ***/
+
+/* our canvas will be a bit taller than our window to avoid "glitched" top and bottom edges */
+#canvas {
+  position: fixed;
+  top: -10vh;
+  right: 0;
+  left: 0;
+  height: 120vh;
+  z-index: -1;
+}
+
+/*** content ***/
+
+#content {
+  position: relative;
+  z-index: 15;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#planes {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+
+  @media screen and (max-width: 960px) {
+    grid-template-columns: initial !important;
+    grid-template-rows: repeat(auto, 1fr);
+  }
+}
+
+.plane-wrapper {
+  position: relative;
+  width: 24rem;
+
+  @media screen and (max-width: 1550px) {
+    width: 20rem !important;
+  }
+  @media screen and (max-width: 1250px) {
+    width: 18rem !important;
+  }
+  @media screen and (max-width: 750px) {
+    width: 100% !important;
+  }
+}
+
+.plane {
+  height: 30rem;
+  width: 100%;
+}
+
+// div.plane-wrapper:nth-child(3)
+//   > div:nth-child(1)
+//   > div:nth-child(2)
+//   > h1:nth-child(2) {
+//   margin-left: 0;
+// }
+
+.plane-inner {
+  .title {
+    @include flex(initial, center, row);
+
+    .member {
+      margin-top: 1.2rem;
+      color: var(--white_1);
+      font-size: $f-size-p1;
+      width: 100%;
+      max-width: 22rem;
+      flex-wrap: wrap;
+      margin-left: 0.5rem;
+    }
+
+    .github {
+      background-image: url("/svg/github.svg");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 2rem;
+      height: 2rem;
+      transform: translateY(7px);
+    }
+  }
+}
+
+.plane img {
+  display: none;
+}

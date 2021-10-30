@@ -1,0 +1,22 @@
+[{
+    "id": 1,
+    "image": "/images/Shanazar_Babakuloglu.png",
+    "title": "Shanazar Babakuloglu",
+    "github": "/images/github.png",
+    "githubUrl": "https://github.com/Soolking-cyber"
+  },
+  {
+    "id": 2,
+    "image": "/images/Medet_Ahmetson.png",
+    "title": "Medet Ahmetson",
+    "github": "/images/github.png",
+    "githubUrl": "https://github.com/ahmetson"
+  },
+  {
+    "id": 3,
+    "image": "/images/Kyle_Hamrayev.png",
+    "title": "Kyle Hamrayev",
+    "github": "/images/github.png",
+    "githubUrl": "https://github.com/kyleOOOkyle"
+  }
+]

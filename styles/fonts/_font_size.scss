@@ -1,0 +1,91 @@
+///! PARAGRAPH ===================
+$f-size-p1:calc(21px + (24 - 21) * ((100vw - 300px) / (1900 - 700))) !important;
+$f-size-p2:calc(20px + (23 - 20) * ((100vw - 300px) / (1900 - 700))) !important;
+$f-size-p3:calc(15px + (20 - 15) * ((100vw - 300px) / (1900 - 700))) !important;
+$f-size-p4:calc(14px + (19 - 14) * ((100vw - 300px) / (1900 - 700))) !important;
+$f-size-p5:calc(14px + (17 - 14) * ((100vw - 300px) / (1900 - 700))) !important;
+$f-size-p6:calc(13px + (16 - 13) * ((100vw - 300px) / (1900 - 700))) !important;
+$f-size-p7:calc(12px + (14 - 12) * ((100vw - 300px) / (1900 - 700))) !important;
+$f-size-p8:calc(10px + (12 - 10) * ((100vw - 300px) / (1900 - 700))) !important;
+$pharagraph_font: 'Heebo';
+
+.f-size-p1 {
+    font-size: $f-size-p1;
+    font-family: $pharagraph_font;
+}
+.f-size-p2 {
+    font-size: $f-size-p2;
+    font-family: $pharagraph_font;
+}
+.f-size-p3 {
+    font-size: $f-size-p3;
+    font-family: $pharagraph_font;
+}
+.f-size-p4 {
+    font-size: $f-size-p4;
+    font-family: $pharagraph_font;
+}
+.f-size-p5 {
+    font-size: $f-size-p5;
+    font-family: $pharagraph_font;
+}
+.f-size-p6 {
+    font-size: $f-size-p6;
+    font-family: $pharagraph_font;
+}
+.f-size-p7 {
+    font-size: $f-size-p7;
+    font-family: $pharagraph_font;
+}
+.f-size-p8 {
+    font-size: $f-size-p8;
+    font-family: $pharagraph_font;
+}
+
+///! HEADING ===================
+
+$f-size-h1:calc(50px + (110 - 50) * ((100vw - 300px) / (1900 - 700))) !important;
+$f-size-h2:calc(30px + (60 - 30) * ((100vw - 300px) / (1900 - 700))) !important;
+$f-size-h3:calc(25px + (50 - 25) * ((100vw - 300px) / (1900 - 700))) !important;
+$f-size-h4:calc(25px + (45 - 25) * ((100vw - 300px) / (1900 - 700))) !important;
+$f-size-h5:calc(19px + (37 - 19) * ((100vw - 300px) / (1900 - 700))) !important;
+$f-size-h6:calc(20px + (35 - 20) * ((100vw - 300px) / (1900 - 700))) !important;
+$f-size-h7:calc(18px + (30 - 18) * ((100vw - 300px) / (1900 - 700))) !important;
+$f-size-h8:calc(15px + (26 - 15) * ((100vw - 300px) / (1900 - 700))) !important;
+$heading_font: 'Satoshi';
+
+
+.f-size-h1 {
+    font-size: $f-size-h1;
+    font-family: $heading_font;
+}
+.f-size-h2 {
+    font-size: $f-size-h2;
+    font-family: $heading_font;
+}
+.f-size-h3 {
+    font-size: $f-size-h3;
+    font-family: $heading_font;
+}
+.f-size-h4 {
+    font-size: $f-size-h4;
+    font-family: $heading_font;
+}
+.f-size-h5 {
+    font-size: $f-size-h5;
+    font-family: $heading_font;
+}
+
+.f-size-h6 {
+    font-size: $f-size-h6;
+    font-family: $heading_font;
+}
+.f-size-h7 {
+    font-size: $f-size-h7;
+    font-family: $heading_font;
+}
+
+.f-size-h8 {
+    font-size: $f-size-h8;
+    font-family: $heading_font;
+}

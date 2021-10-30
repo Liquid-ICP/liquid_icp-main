@@ -1,0 +1,39 @@
+.loading {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--black_-1);
+  z-index: 100;
+  position: fixed;
+  @include flex();
+  user-select: none !important;
+  pointer-events: none;
+
+
+
+  .loading_container {
+    .loading_svg {
+      transform-origin: center;
+
+      @media only screen and (max-width: $medium_screen_query) {
+        transform: scale(0.68);
+      }
+    }
+
+
+
+    .loading_path {
+      stroke-dasharray: 1065;
+      stroke-dashoffset: -500;
+      animation: dash 3s ease infinite;
+    }
+
+    @keyframes dash {
+      from {
+        stroke-dashoffset: 1065;
+      }
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  }
+}

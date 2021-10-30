@@ -1,0 +1,17 @@
+.btn {
+    border-radius: 10px;
+}
+
+
+
+.btn_gradient {
+    background: radial-gradient(166.3% 112.09% at 8.47% -27.47%, #FF3C36 0%, #4021FF 100%) !important;
+}
+
+.btn_black {
+    background-color: var(--black_-1) !important;
+    border: .5px solid var(--black_1) !important;
+}
+.btn_white {
+    background-color: var(--white_1) !important;
+}

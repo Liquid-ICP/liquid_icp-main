@@ -1,0 +1,105 @@
+.twoDIcons-container {
+  height: 100%;
+  min-height: 40rem;
+  @include flex(flex-end);
+  padding: 1.5rem;
+  position: relative;
+
+
+
+  .twoDIcons-dark_container {
+    @include flex(space-around, center, row);
+    background: #0a0a0c;
+    border: 0.5px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0px 44px 61px -25px rgba(8, 8, 9, 0.34),
+      0px 3px 20px rgba(8, 8, 9, 0.15);
+    border-radius: 36px;
+    width: 100%;
+    max-width: var(--main_max_width);
+    position: relative;
+    padding: 1.8rem;
+
+    :first-child {
+      max-width: 22rem !important;
+    }
+
+    @media only screen and (max-width: 1260px) {
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 100px 0;
+      padding: 2rem 0;
+    }
+
+    @media only screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+
+
+
+
+    .twoDIcon_container {
+      position: relative;
+      @include flex();
+      height: 10rem;
+      width: 100%;
+      max-width: 18rem;
+
+      @media only screen and (max-width: 1260px) {
+        max-width: initial !important;
+        justify-content: flex-end;
+        height: initial !important;
+      }
+
+
+
+
+
+      .icon {
+        position: absolute;
+        top: 15%;
+        transform: translateY(-100%);
+        @include background-image("/images/full_circle.png", contain, center);
+        width: 100%;
+        height: 14rem;
+        // left: -6%;
+
+
+        @media only screen and (max-width: 1260px) {
+          position: relative !important;
+          top: initial !important;
+          transform: initial !important;
+          left: initial !important;
+        }
+
+      }
+
+
+
+
+
+
+      .twoDIcon_heading {
+
+        h1 {
+          font-weight: $f-weight-regular;
+          font-family: var(--heebo);
+          font-size: $f-size-p2;
+          color: var(--white_-1);
+          width: 100%;
+          text-align: center;
+        }
+
+        @media only screen and (max-width: 1260px) {
+          margin-top: 1.2rem;
+        }
+
+        @media only screen and (max-width: 768px) {
+          max-width: 18rem;
+          padding: 1rem;
+        }
+      }
+
+
+    }
+  }
+}

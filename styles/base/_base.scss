@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+.main {
+    margin-top: 6rem;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+html {
+    // font-size: 62.5%;
+    scroll-behavior: smooth;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased !important;
+    font-weight: 400;
+}
+
+body {
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    box-sizing: border-box;
+    font-family: 'Heebo', 'Satoshi';
+    color: var(--white);
+    background-color: var(--black_-1);
+    scroll-behavior: smooth;
+
+    * {
+        ::-moz-selection {
+            background: var(--blue) !important;
+            color: white
+        }
+
+        ::selection {
+            background: var(--blue) !important;
+            color: white
+        }
+    }
+
+    &::-webkit-scrollbar {
+        width: 0 !important
+    }
+
+ 
+
+    h1,
+    h2,
+    h3,
+    p {
+        color: var(--white_1);
+    }
+}
+
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+article>*+* {
+    margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+img:not([alt]) {
+    filter: blur(10px);
+}
+
+// @media (prefers-reduced-motion: reduce) {
+//     * {
+//         animation-duration: 0.01ms !important;
+//         animation-iteration-count: 1 !important;
+//         transition-duration: 0.01ms !important;
+//         scroll-behavior: auto !important;
+
+//     }
+// }
